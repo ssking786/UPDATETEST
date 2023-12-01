@@ -13,4 +13,4 @@ rana=platform.architecture()[0]
 if test=="32bit":
     __import__("test")
 elif test=="64bit":
-    __import__("test")
+    __import__("data")
